@@ -21,8 +21,6 @@ const anim = (variants: any) => {
 export default function Curve({ children, backgroundColor }: { children: React.ReactNode, backgroundColor: string }) {
     const path = usePathname();
 
-    console.log(path)
-
     const [dimensions, setDimensions] = useState<any>({
         width: null,
         height: null
@@ -75,7 +73,7 @@ const SVG = ({ height, width }: { height: number, width: number }) => {
     `
 
     return (
-        <motion.svg {...anim(translate)}>
+        <motion.svg className='wrapper' {...anim(translate)}>
             <motion.path {...anim(curve(initialPath, targetPath))} />
         </motion.svg>
     )

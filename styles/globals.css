@@ -4,7 +4,7 @@
 
 
 .curve{
-    svg, .background{
+    .wrapper, .background{
         position: fixed;
         height: calc(100vh + 600px);
         width: 100vw;
@@ -26,5 +26,10 @@
         transform: translateX(-50%);
         text-align: center;
     }
+}
+
+.invertir-color {
+    -webkit-filter: invert(100%);
+   filter: invert(100%);
 }
   
