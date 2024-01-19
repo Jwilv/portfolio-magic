@@ -9,7 +9,7 @@
         height: calc(100vh + 600px);
         width: 100vw;
         pointer-events: none;
-        z-index: 20;
+        z-index: 15;
         left: 0;
         top: 0;
     }
@@ -23,7 +23,7 @@
         top: 40%;
         color: white;
         font-size: 46px;
-        z-index: 3;
+        z-index: 20 !important;
         transform: translateX(-50%);
         text-align: center;
     }

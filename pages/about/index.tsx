@@ -1,9 +1,7 @@
 "use client"
 
-import { about, back } from '@/assets'
 import Curve from '@/lib'
-import { ArrowLeft, Download, Github, Linkedin, User } from 'lucide-react'
-import Image from 'next/image'
+import { ArrowLeft, Download, Github, User } from 'lucide-react'
 import { useRouter } from 'next/navigation'
 const page = () => {
 

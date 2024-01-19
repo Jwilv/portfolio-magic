@@ -20,7 +20,9 @@ export default function Home() {
           Experience
         </h1>
         <h1 className='text-black absolute md:left-10 -left-5 -rotate-90 font-semibold text-3xl top-1/2'>Contact</h1>
-        <h1 className='text-black absolute md:right-10 -right-5 -rotate-90 font-semibold text-3xl top-1/2'>Proyects</h1>
+        <h1 className='text-black absolute md:right-10 -right-5 -rotate-90 font-semibold text-3xl top-1/2'>
+        <Link href='/proyects'>Proyects</Link>
+        </h1>
         <h1 className='text-black absolute md:bottom-10 md:left-1/3 bottom-36 left-10 font-semibold text-3xl md:visible invisible'>Experience</h1>
         <h1 className='text-black absolute md:bottom-10 md:right-1/3 bottom-36 right-10 md:visible invisible font-semibold text-3xl'>
           <Link href='/about'>About</Link>

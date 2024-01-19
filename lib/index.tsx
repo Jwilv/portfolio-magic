@@ -6,6 +6,7 @@ import { text, curve, translate } from './anim';
 
 const routes: { [key: string]: string } = {
     "/about": "About",
+    "/proyects": "Proyects",
     "/contact": "Contact"
 };
 
