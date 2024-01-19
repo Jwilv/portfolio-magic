@@ -1,4 +1,6 @@
-import { Github } from "lucide-react"
+import { Blocks, Github } from "lucide-react"
+import { DropdownMenu, DropdownMenuContent, DropdownMenuGroup, DropdownMenuItem, DropdownMenuLabel, DropdownMenuTrigger } from "./ui/dropdown-menu"
+import { Separator } from "./ui/separator"
 
 
 export const Proyect = () => {
@@ -25,6 +27,23 @@ export const Proyect = () => {
                 >
                     <Github className="h-8 w-8 cursor-pointer" />
                 </a>
+                <DropdownMenu>
+                    <DropdownMenuTrigger asChild className="-mt-3 absolute right-20 cursor-pointer">
+                        <Blocks />
+                    </DropdownMenuTrigger>
+                    <DropdownMenuContent className="">
+                        <DropdownMenuLabel>
+                            Tecnologias
+                        </DropdownMenuLabel>
+                        <Separator className=" bg-zinc-300" />
+                        <DropdownMenuGroup>
+                            <DropdownMenuItem className="m-1">
+                            <i className="devicon-nextjs-original colored text-xl mr-2"></i>
+                            <span>Next.js</span>
+                            </DropdownMenuItem>
+                        </DropdownMenuGroup>
+                    </DropdownMenuContent>
+                </DropdownMenu>
             </div>
         </div>
     )
