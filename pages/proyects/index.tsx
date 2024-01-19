@@ -4,7 +4,6 @@ import Curve from "@/lib"
 const ProyectsPage = () => {
     return (
         <Curve backgroundColor={"#ffffff"}>
-            ProyectsPage
         </Curve>
     )
 }

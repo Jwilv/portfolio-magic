@@ -3,8 +3,10 @@
 @tailwind utilities;
 
 
-.curve{
-    .wrapper, .background{
+.curve {
+
+    .wrapper,
+    .background {
         position: fixed;
         height: calc(100vh + 600px);
         width: 100vw;
@@ -13,11 +15,13 @@
         left: 0;
         top: 0;
     }
-    .background{
+
+    .background {
         background-color: black;
         transition: opacity 0s linear 0.1s;
     }
-    .route{
+
+    .route {
         position: absolute;
         left: 50%;
         top: 40%;
@@ -31,6 +35,10 @@
 
 .invertir-color {
     -webkit-filter: invert(100%);
-   filter: invert(100%);
+    filter: invert(100%);
 }
-  
+
+.shadowItem{
+    box-shadow: 15px 15px 30px #bebebe,
+        -15px -15px 30px #ffffff;
+}
