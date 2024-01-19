@@ -14,7 +14,7 @@ const page = () => {
 
             <div className='h-screen w-screen flex items-center justify-center'>
                 <ArrowLeft
-                    className='max-w-7 max-h-7 lg:m-10 lg:top-10 lg:left-10 absolute lg:text-black 
+                    className='w-8 h-8 lg:m-10 lg:top-10 lg:left-10 absolute lg:text-black 
                     cursor-pointer text-white top-10 left-6'
                     onClick={() => router.back()}
                 />

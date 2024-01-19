@@ -9,6 +9,7 @@
         height: calc(100vh + 600px);
         width: 100vw;
         pointer-events: none;
+        z-index: 20;
         left: 0;
         top: 0;
     }
