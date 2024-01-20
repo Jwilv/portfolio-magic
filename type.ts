@@ -1,3 +1,4 @@
+import { StaticImageData } from "next/image"
 
 export type Techonology =
     'nextjs'
@@ -7,7 +8,6 @@ export type Techonology =
     | 'mongodb'
     | 'nodejs'
     | 'express'
-    | 'prisma'
     | 'socket'
     | 'docker'
     | 'mySql'
@@ -18,5 +18,5 @@ export interface Proyetc {
     description: string
     repositoryUrl: string
     technologies: Techonology[]
-    image: string
+    image?: StaticImageData
 }
