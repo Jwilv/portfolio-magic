@@ -1,5 +1,5 @@
 import { Techonology } from "@/type"
-import { DropdownMenuItem } from "./ui/dropdown-menu"
+import { DropdownMenuItem } from "../ui/dropdown-menu"
 
 const technologyMap = {
     "nextjs": 'devicon-nextjs-original colored',

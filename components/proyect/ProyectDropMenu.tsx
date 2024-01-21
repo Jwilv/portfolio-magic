@@ -6,9 +6,9 @@ import {
     DropdownMenuItem,
     DropdownMenuLabel,
     DropdownMenuTrigger
-} from "./ui/dropdown-menu"
+} from "../ui/dropdown-menu"
 
-import { Separator } from "./ui/separator"
+import { Separator } from "../ui/separator"
 import { Techonology } from "@/type"
 import { ProyectDropItem } from "./ProyectDropItem"
 

@@ -4,7 +4,7 @@ import { Proyect } from './Proyect'
 
 export const ProyectsList = () => {
     return (
-        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5'>
+        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 m-auto mt-5'>
             {
                 Proyects.map((proyect, index) => (
                     <Proyect key={index} {...proyect} />
