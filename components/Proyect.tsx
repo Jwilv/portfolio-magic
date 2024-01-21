@@ -11,8 +11,8 @@ export const Proyect = ({
     repositoryUrl
 }: Proyetc) => {
     return (
-        <div className="h-[290px] w-[400px] shadowItem bg-[#fff] rounded-3xl m-10">
-            <div className="h-[150px] w-[400px] rounded-t-3xl overflow-hidden">
+        <div className="h-[320px] w-[350px] shadowItem bg-[#fff] rounded-3xl m-auto">
+            <div className="h-[150px] w-[350px] rounded-t-3xl overflow-hidden">
                 <img
                     src="https://raw.githubusercontent.com/Jwilv/port-3d/main/assets/code.jpg"
                     alt=""

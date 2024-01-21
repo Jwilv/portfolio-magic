@@ -19,8 +19,8 @@ export const ProyectDropMenu = ({ technologies }: { technologies: Techonology[] 
         <DropdownMenu>
             <DropdownMenuTrigger asChild className="mt-1 absolute right-20 cursor-pointer">
                 <Blocks />
-            </DropdownMenuTrigger>
-            <DropdownMenuContent>
+            </DropdownMenuTrigger >
+            <DropdownMenuContent >
                 <DropdownMenuLabel>
                     Tecnologias
                 </DropdownMenuLabel>
