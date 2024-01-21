@@ -1,5 +1,4 @@
-import { Proyect } from "@/components/Proyect"
-import { Proyects } from "@/data/localData"
+import { ProyectsList } from "@/components/ProyectsList"
 import Curve from "@/lib"
 
 
@@ -7,13 +6,7 @@ const ProyectsPage = () => {
     return (
         // <Curve backgroundColor={"#ffffff"}>
         // </Curve>
-        <>
-            {
-                Proyects.map((proyect, index) => (
-                    <Proyect key={index} {...proyect} />
-                ))
-            }
-        </>
+        <ProyectsList /> 
     )
 }
 
