@@ -1,3 +1,4 @@
+import { ButtonBack } from "@/components/ButtonBack"
 import { FilterProyects } from "@/components/FilterProyects"
 import { ProyectsList } from "@/components/proyect/ProyectsList"
 import { Separator } from "@/components/ui/separator"
@@ -8,7 +9,7 @@ import Curve from "@/lib"
 const ProyectsPage = () => {
     return (
         <Curve backgroundColor={"#ffffff"}>
-
+            <ButtonBack type="black"/>
             <WelcomeProyects />
             <FilterProyects />
             <Separator className="bg-zinc-400" />

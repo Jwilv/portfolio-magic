@@ -1,5 +1,6 @@
 "use client"
 
+import { ButtonBack } from '@/components/ButtonBack'
 import Curve from '@/lib'
 import { ArrowLeft, Download, Github, User } from 'lucide-react'
 import { useRouter } from 'next/navigation'
@@ -11,11 +12,7 @@ const page = () => {
         <Curve backgroundColor={"#ffffff"}>
 
             <div className='h-screen w-screen flex items-center justify-center'>
-                <ArrowLeft
-                    className='w-8 h-8 lg:m-10 lg:top-10 lg:left-10 absolute lg:text-black 
-                    cursor-pointer text-white top-10 left-6'
-                    onClick={() => router.back()}
-                />
+                <ButtonBack />
                 <div className='bg-black h-full w-full lg:h-[600px] lg:w-[1200px] flex justify-center'>
 
                     <div className='h-full fg:w-1/2 w-full overflow-hidden'>
