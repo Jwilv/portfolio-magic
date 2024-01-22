@@ -22,7 +22,7 @@ export const Proyect = ({
             <h2 className="font-semibold text-xl ml-2">
                 {name}
             </h2>
-            <p className="ml-2 mr-5">
+            <p className="ml-2 mr-5 h-[96px]">
                 {description}
             </p>
             <div className="w-full relative">

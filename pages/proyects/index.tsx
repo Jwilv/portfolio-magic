@@ -9,12 +9,13 @@ import Curve from "@/lib"
 const ProyectsPage = () => {
     return (
         <Curve backgroundColor={"#ffffff"}>
+            <div className="overflow-x-hidden">
             <ButtonBack type="black"/>
             <WelcomeProyects />
             <FilterProyects />
             <Separator className="bg-zinc-400" />
             <ProyectsList />
-
+            </div>
         </Curve>
     )
 }
