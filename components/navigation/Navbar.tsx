@@ -2,7 +2,7 @@ import { logo } from "@/assets"
 import Image from "next/image"
 
 
-const items = ["Home", "About", "Work", "Experience", "Contact"]
+const items = ["Inicio", "Sobre mi", "Proyectos", "Experiencia", "Contacto"]
 
 export const Navbar = () => {
     return (

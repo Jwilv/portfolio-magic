@@ -8,7 +8,7 @@
     .wrapper,
     .background {
         position: fixed;
-        height: calc(100vh + 600px);
+        height: calc(500vh + 600px);
         width: 100vw;
         pointer-events: none;
         z-index: 15;
