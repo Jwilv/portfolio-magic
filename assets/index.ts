@@ -1,9 +1,7 @@
-import logo from './logo.jpg'
-import back from './back.jpg'
-import about from './ss.jpg'
+import Component1 from './Component1.png'
+import Component2 from './Component2.png'
 
 export {
-    logo,
-    about,
-    back,
+    Component1,
+    Component2,
 }
