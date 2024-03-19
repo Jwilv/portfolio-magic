@@ -1,5 +1,6 @@
 import { Navbar } from '@/components/navigation/Navbar'
 import { About } from '@/components/screens/About'
+import { Hero } from '@/components/screens/Hero'
 import { Presentation } from '@/components/screens/Presentation'
 import Curve from '@/lib'
 
@@ -10,7 +11,8 @@ export default function Home() {
       <Curve backgroundColor={"#ffffff"}>
         <Navbar />
         <Presentation />
-        <About /> 
+        <About />
+        <Hero />
       </Curve>
     </main>
   )
