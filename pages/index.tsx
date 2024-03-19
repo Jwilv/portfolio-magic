@@ -1,7 +1,11 @@
 import { Navbar } from '@/components/navigation/Navbar'
-import { About } from '@/components/screens/About'
-import { Hero } from '@/components/screens/Hero'
-import { Presentation } from '@/components/screens/Presentation'
+import {
+  About,
+  Hero,
+  Presentation,
+  Proyects
+} from '@/components/screens'
+
 import Curve from '@/lib'
 
 
@@ -13,6 +17,7 @@ export default function Home() {
         <Presentation />
         <About />
         <Hero />
+        <Proyects />
       </Curve>
     </main>
   )
