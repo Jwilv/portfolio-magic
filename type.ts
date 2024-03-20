@@ -13,10 +13,17 @@ export type Techonology =
     | 'mySql'
     | 'js'
 
+
+
+interface link {
+    label: string
+    url: string
+}
+
 export interface Proyetc {
-    name: string
-    description: string
-    repositoryUrl: string
-    technologies: Techonology[]
-    image?: StaticImageData
+    title: string;
+    desc: string;
+    subDesc?: string;
+    image: StaticImageData;
+    links: link[];
 }
