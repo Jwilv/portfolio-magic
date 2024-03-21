@@ -6,6 +6,8 @@ import dslite from './proyects/dsLite.png'
 import mapApp from './proyects/mapApp.png'
 import chatApp from './proyects/chatApp.png'
 import spendWise from './proyects/spendWise.png'
+import calendar from './proyects/calendar.png'
+import imgsIa from './proyects/imgsIa.png'
 
 
 
@@ -17,5 +19,7 @@ export {
     dslite,
     mapApp,
     chatApp,
-    spendWise
+    spendWise,
+    calendar,
+    imgsIa
 }

@@ -8,7 +8,7 @@ import {
 } from './ui/carousel'
 import { ProyectItem } from './components/ProyectItem'
 
-const colors = ['violet', 'skyblue', 'blue', 'radial']
+const colors = ['violet', 'skyblue', 'green', 'blue', 'radial', 'grey']
 
 export const CarouselProyects = () => {
     return (
