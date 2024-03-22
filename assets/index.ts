@@ -8,6 +8,8 @@ import chatApp from './proyects/chatApp.png'
 import spendWise from './proyects/spendWise.png'
 import calendar from './proyects/calendar.png'
 import imgsIa from './proyects/imgsIa.png'
+import ie from './experience/ie.jpg'
+import ledix from './experience/ledix.png'
 
 
 
@@ -21,5 +23,7 @@ export {
     chatApp,
     spendWise,
     calendar,
-    imgsIa
+    imgsIa,
+    ie,
+    ledix,
 }
