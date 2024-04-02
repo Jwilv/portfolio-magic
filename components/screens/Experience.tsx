@@ -1,9 +1,4 @@
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component'
-import { motion } from 'framer-motion'
-
-
-
-import { textVariant } from '@/utils/motion';
 import Image, { StaticImageData } from 'next/image';
 import { experiences } from '@/data/experienceData';
 
