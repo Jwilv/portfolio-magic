@@ -63,10 +63,10 @@ function ParallaxText({ children, baseVelocity = 100 }: ParallaxProps) {
   return (
     <div className="parallax">
       <motion.div className="scroller" style={{ x }}>
-        <span className="text-9xl">&nbsp;{children}&nbsp;</span>
-        <span className="text-9xl">&nbsp;{children}&nbsp;</span>
-        <span className="text-9xl">&nbsp;{children}&nbsp;</span>
-        <span className="text-9xl">&nbsp;{children}&nbsp;</span>
+        <span className="md:text-9xl text-7xl">&nbsp;{children}&nbsp;</span>
+        <span className="md:text-9xl text-7xl">&nbsp;{children}&nbsp;</span>
+        <span className="md:text-9xl text-7xl">&nbsp;{children}&nbsp;</span>
+        <span className="md:text-9xl text-7xl">&nbsp;{children}&nbsp;</span>
       </motion.div>
     </div>
   );
