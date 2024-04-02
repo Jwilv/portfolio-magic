@@ -1,5 +1,4 @@
 import Scroll from './scroll.png'
-import logo from './logo.svg'
 import BlackBg from './black-bg.jpeg'
 import dslite from './proyects/dsLite.png'
 import mapApp from './proyects/mapApp.png'
@@ -15,7 +14,6 @@ import zest from './experience/zest.jpeg'
 
 export {
     Scroll,
-    logo,
     BlackBg,
     dslite,
     mapApp,
