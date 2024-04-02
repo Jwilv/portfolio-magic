@@ -1,5 +1,4 @@
-import Component1 from './Component1.png'
-import Component2 from './Component2.png'
+import Scroll from './scroll.png'
 import logo from './logo.svg'
 import BlackBg from './black-bg.jpeg'
 import dslite from './proyects/dsLite.png'
@@ -14,8 +13,7 @@ import ledix from './experience/ledix.png'
 
 
 export {
-    Component1,
-    Component2,
+    Scroll,
     logo,
     BlackBg,
     dslite,
