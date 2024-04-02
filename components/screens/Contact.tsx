@@ -56,7 +56,7 @@ export const Contact = () => {
   const [loading, setLoading] = useState(false);
 
   return (
-    <div className="mt-20 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden xl:m-auto">
+    <div className="xl:flex-row flex-col-reverse flex gap-10 overflow-hidden xl:m-auto">
       <motion.div
         className="bg-white flex-[0.75] p-8 rounded-2xl form-card xl:m-auto"
       >

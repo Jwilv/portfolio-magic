@@ -48,7 +48,7 @@ const ExperienceCard = ({ icon, title, company_name, date, points, iconBg }: Exp
 
 export const Experience = () => {
     return (
-        <div className="mt-20 flex flex-col">
+        <div className="mt-20 flex flex-col mb-40">
             <VerticalTimeline lineColor='#000'>
                 {experiences.map((experience, index) => (
                     <ExperienceCard key={index} {...experience} />
