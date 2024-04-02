@@ -64,6 +64,14 @@
     flex-wrap: nowrap;
 }
 
+.form-card {
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+}
+
+.input-shadow {
+    box-shadow: 0 0.4rem #dfd9d9;
+}
+
 .gradient-blue {
     background: hsla(217, 100%, 50%, 1);
 
@@ -92,12 +100,12 @@
     background: hsla(354, 95%, 24%, 1);
 
     background: linear-gradient(90deg, hsla(354, 95%, 24%, 1) 0%, hsla(234, 70%, 24%, 1) 100%);
-    
+
     background: -moz-linear-gradient(90deg, hsla(354, 95%, 24%, 1) 0%, hsla(234, 70%, 24%, 1) 100%);
-    
+
     background: -webkit-linear-gradient(90deg, hsla(354, 95%, 24%, 1) 0%, hsla(234, 70%, 24%, 1) 100%);
-    
-    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#76030f", endColorstr="#121b67", GradientType=1 );
+
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#76030f", endColorstr="#121b67", GradientType=1);
 }
 
 .gradient-skyblue {
@@ -128,10 +136,10 @@
     background: hsla(260, 28%, 53%, 1);
 
     background: linear-gradient(90deg, hsla(260, 28%, 53%, 1) 0%, hsla(170, 42%, 71%, 1) 100%);
-    
+
     background: -moz-linear-gradient(90deg, hsla(260, 28%, 53%, 1) 0%, hsla(170, 42%, 71%, 1) 100%);
-    
+
     background: -webkit-linear-gradient(90deg, hsla(260, 28%, 53%, 1) 0%, hsla(170, 42%, 71%, 1) 100%);
-    
-    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#7c65a9", endColorstr="#96d4ca", GradientType=1 );
+
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#7c65a9", endColorstr="#96d4ca", GradientType=1);
 }

@@ -5,6 +5,7 @@ import {
   Presentation,
   Proyects
 } from '@/components/screens'
+import { Contact } from '@/components/screens/Contact'
 import { Experience } from '@/components/screens/Experience'
 
 import Curve from '@/lib'
@@ -20,6 +21,7 @@ export default function Home() {
         <Hero />
         <Proyects />
         <Experience />
+        <Contact />
       </Curve>
     </main>
   )
