@@ -13,7 +13,7 @@ const colors = ['violet', 'skyblue', 'green', 'blue', 'radial', 'grey']
 export const CarouselProyects = () => {
     return (
         <Carousel orientation='horizontal'>
-            <CarouselContent className="h-[800px] w-[1600px]">
+            <CarouselContent className="h-[800px] 2xl:w-[1600px] w-[400px] md:w-[800px] xl:w-[1200px]">
                 {
                     Proyects.map((proyect, index) => (
                         <ProyectItem

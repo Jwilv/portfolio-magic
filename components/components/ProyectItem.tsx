@@ -18,9 +18,9 @@ export const ProyectItem = ({ Proyect, color }: ProyectItemProps) => {
     return (
         <CarouselItem>
             <div
-                className={`w-[full] h-[800px] flex rounded-3xl gradient-${color}`}
+                className={`w-[full] h-[800px] flex flex-col xl:flex-row rounded-3xl gradient-${color}`}
             >
-                <div className="w-1/2 h-full flex justify-start items-center">
+                <div className="md:w-1/2 xl:w-3/4 flex-1 h-full flex justify-start items-center m-auto">
 
                     <Image
                         src={image}
@@ -28,15 +28,15 @@ export const ProyectItem = ({ Proyect, color }: ProyectItemProps) => {
                     />
                 </div>
 
-                <div className="flex-1 ">
-                    <h2 className="text-5xl font-bold text-white ml-20 mt-16">
+                <div className="flex-1 mb-5">
+                    <h2 className="text-5xl font-bold text-white xl:ml-20 ml-10 xl:mt-16 ">
                         {title}
                     </h2>
 
-                    <p className="text-white ml-20 mt-10 w-[550px] text-2xl">
+                    <p className="text-white md:ml-20 ml-10 mt-5 md:w-[550px] md:text-2xl text-xl mr-5">
                         {desc}
                     </p>
-                    <p className="text-white ml-20 mt-10 w-[550px] text-2xl">
+                    <p className="text-white md:ml-20 ml-10 mt-5 md:w-[550px] md:text-2xl text-xl mr-5">
                         {subDesc}
                     </p>
 
@@ -48,7 +48,7 @@ export const ProyectItem = ({ Proyect, color }: ProyectItemProps) => {
                                 target="_blank"
                             >
                                 <Button
-                                    className="ml-20 mt-10"
+                                    className="md:ml-20 md:mt-10 ml-10 mt-5"
                                 >
                                     {link.label}
                                 </Button>

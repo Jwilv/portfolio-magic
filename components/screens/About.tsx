@@ -5,7 +5,7 @@ import { BlackBg } from "@/assets"
 
 export const About = () => {
     return (
-        <div className="w-screen h-screen md:flex">
+        <div className="w-screen h-screen md:flex" id="about">
             <div className="md:w-1/2 w-auto mr-10 flex flex-col justify-center md:items-start items-center">
                 <div className="md:ml-[180px] ml-10 items-center justify-center flex-wrap">
                     <span className="text-xl">Sobre mi</span>

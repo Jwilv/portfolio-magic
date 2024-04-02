@@ -53,16 +53,12 @@ export const Contact = () => {
     })
   }
 
-  //template_y3wr5ss
-  //service_s0t6erq
-  //Hl5TW_2sG6WksOCf_
-
   const [loading, setLoading] = useState(false);
 
   return (
-    <div className="mt-12 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden items-center justify-center h-screen">
+    <div className="mt-20 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden xl:m-auto">
       <motion.div
-        className="bg-white p-8 rounded-2xl w-[800px] form-card"
+        className="bg-white flex-[0.75] p-8 rounded-2xl form-card xl:m-auto"
       >
         <h3
           className="text-black font-black md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px]"
@@ -125,3 +121,71 @@ export const Contact = () => {
     </div>
   )
 }
+
+
+// <div className="xl:mt-12 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden">
+//       <motion.div
+//         className="flex-[0.75] bg-black-100 p-8 rounded-2xl"
+//       >
+//         <p
+//           className="sm:text-[18px] text-[14px] text-secondary uppercase tracking-wider"
+//         >Ponerse en contacto</p>
+//         <h3
+//           className="text-white font-black md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px]"
+//         >Contacto</h3>
+
+//         <form
+//           className="mt-12 flex flex-col gap-8"
+//           ref={formRef}
+//           onSubmit={handleSubmit}
+//         >
+
+//           <label className="flex flex-col">
+//             <p className="text-white font-medium mb-4">Su nombre</p>
+//             <input
+//               type="text"
+//               name="name"
+//               value={formValue.name}
+//               onChange={handleChange}
+//               placeholder=" ¿Cuál es tu nombre?"
+//               className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
+//             />
+//           </label>
+
+
+//           <label className="flex flex-col">
+//             <p className="text-white font-medium mb-4">Su Email</p>
+//             <input
+//               type="email"
+//               name="email"
+//               value={formValue.email}
+//               onChange={handleChange}
+//               placeholder="¿Cuál es tu Email?"
+//               className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
+//             />
+//           </label>
+
+
+//           <label className="flex flex-col">
+//             <p className="text-white font-medium mb-4">Mensaje</p>
+//             <textarea
+//               rows={7}
+//               name="message"
+//               value={formValue.message}
+//               onChange={handleChange}
+//               placeholder="Escribe tu mensaje"
+//               className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
+//             />
+//           </label>
+
+//           <button
+//             type="submit"
+//             className="bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary "
+//             onClick={() => setLoading(true)}
+//           >
+//             {loading ? "Enviando..." : "Enviar"}
+//           </button>
+
+//         </form>
+//       </motion.div>
+//     </div>

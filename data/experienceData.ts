@@ -1,4 +1,4 @@
-import { ie, ledix } from "../assets";
+import { ie, ledix, zest } from "../assets";
   
   export const navLinks = [
     {
@@ -38,11 +38,23 @@ import { ie, ledix } from "../assets";
       company_name: "U.I Software",
       icon: ie,
       iconBg: "#E6DEDD",
-      date: "Agosto 2023 - Actualidad",
+      date: "Agosto 2023 - 2024",
       points: [
         "Integracion de tecnologias web y desarrollo de aplicaciones web.",
         "Planificacion de proyectos y creacion de interfaces de usuario.",
         "Implemtentacion de disenos responsivos.",
+      ],
+    },
+    {
+      title: "React Native Developer",
+      company_name: "Zest",
+      icon: zest,
+      iconBg: "#E6DEDD",
+      date: "2024 - Actualidad",
+      points: [
+        "Dessarrollo de aplicaciones mobile",
+        "Implementacion de patrones de componentes",
+        "Metodologias agiles y dessarrollo de equipo",
       ],
     },
   ];

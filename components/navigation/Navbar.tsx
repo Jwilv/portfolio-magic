@@ -15,7 +15,7 @@ export const Navbar = () => {
             <div className="flex-1 flex justify-end mr-20">
                 {
                     items.map((item, index) => (
-                        <span key={index} className="ml-10 mr-10 font-semibold cursor-pointer">{item}</span>
+                        <span key={index} className="ml-10 mr-10 font-semibold cursor-pointer" >{item}</span>
                     ))
                 }
             </div>

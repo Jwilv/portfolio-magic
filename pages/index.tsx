@@ -15,7 +15,7 @@ export default function Home() {
   return (
     <main className='h-screen w-screen overflow-x-hidden'>
       <Curve backgroundColor={"#ffffff"}>
-        <Navbar />
+        {/* <Navbar /> */}
         <Presentation />
         <About />
         <Hero />

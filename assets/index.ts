@@ -9,6 +9,7 @@ import calendar from './proyects/calendar.png'
 import imgsIa from './proyects/imgsIa.png'
 import ie from './experience/ie.jpg'
 import ledix from './experience/ledix.png'
+import zest from './experience/zest.jpeg'
 
 
 
@@ -24,4 +25,5 @@ export {
     imgsIa,
     ie,
     ledix,
+    zest
 }
